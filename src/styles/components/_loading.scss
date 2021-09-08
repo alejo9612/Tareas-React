@@ -1,0 +1,21 @@
+
+.spinner{
+    border: 7px solid rgb(0, 0, 0, .1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-right-color: $dark-grey;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(360deg);
+    }
+}
